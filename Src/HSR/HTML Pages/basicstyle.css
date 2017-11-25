@@ -94,3 +94,23 @@ body {
     height: auto;
     margin-top: -40px;
 }
+
+/*** copright text starts ***/
+footer {
+	position: absolute;
+    margin-top: 46%;
+	height: 100px;
+    width: 100%;
+}
+
+p.copyright {
+	position: absolute;
+	width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+	text-align: center;
+	bottom:0;
+}
+
+/*** copright text end ***/
