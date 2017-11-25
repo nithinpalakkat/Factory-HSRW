@@ -1,0 +1,48 @@
+@import "basicstyle.css";
+
+.productcontent {
+    position: absolute;
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 280px;
+}
+
+.productcontent h1 {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+}
+
+.productcontent p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+
+.checkoutOurProductsBtn {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+    padding: 20px, 30px;
+    line-height: 2;
+    color: #35677C;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.checkoutOurProductsBtn:hover {
+    background-color: #35677C;
+    color: white;
+    transition: all .5s ease-in;
+}
+
+.productSampleImage img {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-top: 280px;
+    margin-left: 620px;
+}
