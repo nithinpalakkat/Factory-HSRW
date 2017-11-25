@@ -12,10 +12,15 @@ header {
 }
 
 .main-nav {
-    float: right;
-    list-style: none;
+    text-align: right;
+    width: auto;
+    float:right;
     margin-top: 80px;
     margin-right: 100px;
+}
+
+.man-nav ul {
+    list-style: none;
 }
 
 .main-nav li {
@@ -28,10 +33,7 @@ header {
     padding: 5px 30px;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
-}
-
-.main-nav li.active a {
-    border: 1px solid white;
+    text-align: left;
 }
 
 .main-nav li a:hover {
@@ -51,7 +53,7 @@ body {
 }
 
 .row {
-    max-width: 1200px;
+    max-width: auto;
     margin: auto;
 }
 
