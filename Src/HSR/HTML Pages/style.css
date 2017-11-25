@@ -1,0 +1,137 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-image: url(Images/background.jpg);
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a {
+    border: 1px solid white;
+}
+
+.main-nav li a:hover {
+    border: 1px solid white;
+}
+
+.logo img {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+body {
+    font-family: monospace;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.productcontent {
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 275px;
+    margin-left: 200px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.checkoutProductButton {
+    margin-top: 16px;
+    margin-left: 200px;
+}
+
+.checkoutOurProductsBtn {
+    border: 1px solid white;
+    padding: 5px, 30px;
+    color: #35677C;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.checkoutOurProductsBtn:hover {
+    background-color: #35677C;
+    color: white;
+    transition: all .5s ease-in;
+}
+
+.languageSelector {
+    float: center;
+    list-style: none;
+    margin-top: 180px;
+    margin-left: 600px;
+}
+
+.languageSelector li {
+    display: inline-block;
+}
+
+.languageSelector li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: 1px solid white;
+}
+
+.languageSelector li a:hover {
+    border: 1px solid #0C2B3F;
+    color: #0C2B3F;
+    background-color: white;
+    transition: all .5s ease-in;
+}
+
+.bottom-logo {
+    margin-top: 180px;
+    margin-left: 400px;
+    width: 100px;
+    height: auto;
+    float: right;
+}
