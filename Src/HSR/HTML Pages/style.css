@@ -63,7 +63,7 @@ body {
     margin-top: 0;
 }
 
-h1 {
+.productcontent h1 {
     color: white;
     font-size: 24px;
     text-align: left;
@@ -71,7 +71,7 @@ h1 {
     margin-left: 200px;
 }
 
-p {
+.productcontent p {
     color: white;
     font-size: 18px;
     text-align: left;
@@ -128,10 +128,12 @@ p {
     transition: all .5s ease-in;
 }
 
-.bottom-logo {
-    margin-top: 180px;
-    margin-left: 400px;
-    width: 100px;
+.bottom-logo img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
     height: auto;
-    float: right;
+    margin-top: 350px;
+    margin-left: 510px;
 }
