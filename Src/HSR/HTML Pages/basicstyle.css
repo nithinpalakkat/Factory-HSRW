@@ -2,6 +2,7 @@
 
 body {
     font-family: monospace;
+    position: inherit;
 }
 
 /*** Background image loading part ***/
@@ -47,7 +48,7 @@ body {
 .logo img {
     margin-top: 40px;
     margin-left: 60px;
-    width: 110px;
+    width: 60px;
     height: auto;
     float: left;
 }
