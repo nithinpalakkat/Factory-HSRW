@@ -1,15 +1,42 @@
 @import "basicstyle.css";
 
+/*** products images styling starts ***/
 .productimages {
-    margin-top: 100px;
-    margin-left: 100px;
-    width: 100px;
-    height: auto;
-    float: left;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 60px;
 }
 
+/*** products images heading ***/
 .productimages h1 {
     color: white;
-    font-size: 20px;
-    text-align: left;
+    font-size: 14px;
+    text-align: right;
+    display: inline-block;
 }
+
+.bottomtext {
+    margin-left: 300px;
+}
+
+/*** products images ***/
+.roundbottom, .squarebottom, .roundtop, .squaretop {
+    position: absolute;
+    width: 140px;
+    height: auto;
+    margin-top: 40px;
+}
+
+.squarebottom {
+    margin-left: 260px; 
+}
+
+.roundtop {
+    margin-left: 500px;
+}
+
+.squaretop {
+    margin-left: 730px
+}
+
+/*** products images styling end ***/
