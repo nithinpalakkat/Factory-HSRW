@@ -42,11 +42,13 @@
          </div>
         
              <!-- Feedback part -->
-            <div class="feedbackbutton">
-             <form class="signin">
-              <input type="text" placeholder="Order Number"/>
-              <input type="text Area" placeholder="Feedback"/>
-              <button>Send Feedback</button>
+            <div>
+             <form class="signin" id="userfeedback">
+                <label for="ordernumber">Order Number</label>
+                <input type="text" id="ordernumber" name="ordernumber" placeholder="Your Order Number">
+                <label for="feedback">FeedBack</label>
+                <textarea class="feedbacktextarea" rows="6" cols="38" name="feedback" form="userfeedback" placeholder="Your feedback"></textarea>
+                <input type="submit" value="Submit">
             </form>
             </div>
         

@@ -1,9 +1,10 @@
 @import "basicstyle.css";
 
+/*** contact information style starts ***/
 .contactcontent{
     position: absolute;
-    width: 800px;
-    margin-left: 200px;
+    width: 600px;
+    margin-left: 100px;
     margin-top: 200px;
 }
 
@@ -25,18 +26,21 @@
     text-align: left;
 }
 
-.feedbackbutton {
-    position: absolute;
-    width: 800px;
-    margin-left: 800px;
-    margin-top: 220px;
-}
+/*** contact information style end ***/
 
-.form {
+/*** feedback form style starts ***/
+
+.signin {
+    position: absolute;
+    left : 700px;
+    top  : 200px;
     margin: 20px auto;
     width: 300px;
     color: white;
-    list-style-type: none;
+}
+
+.signin.label {
+    font-size: 14px;
 }
 
 .input{
@@ -44,9 +48,41 @@
     font-size: inherit;
 }
 
-.input [type="text"] {
-    display: block;
-    margin-bottom: 25px;
-    width: 100px;
-    border: 2px solid white;
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
+
+input[type=submit] {
+    width: 100%;
+    background-color: #33677D;
+    font-size: 14px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #33677D;
+     border: 1px solid #33677D;
+}
+
+.feedbacktextarea {
+   padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+/*** feedback form style end ***/
