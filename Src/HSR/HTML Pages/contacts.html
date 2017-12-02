@@ -4,6 +4,8 @@
 <head>
 <title>HSRW i4.0</title>
 <link href="contacts.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/translation.js"></script>    
 
 </head>
 
@@ -21,32 +23,39 @@
         <div class="main-nav">
             <!-- navigation menu -->
             <ul>
-                <li><a href="Home.html"> Home </a></li>
-                <li><a href="about.html"> About </a></li>
-                <li><a href="Products.html">Products </a></li>
-                <li><a href=""> Contacts </a></li>
-                <li><a href="signin.html"> Sign In </a></li>
+                <li><a key="home" class="tr" href="Home.html"> Home </a></li>
+                <li><a key="about" class="tr" href="about.html"> About </a></li>
+                <li><a key="products" class="tr" href="Products.html">Products </a></li>
+                <li><a key="contacts" class="tr" href=""> Contacts </a></li>
+                <li><a key="signin" class="tr" href="signin.html"> Sign In </a></li>
             </ul>
         </div>
         
-         <div class="productcontent">
-         <h3 lang="en">Prof. Dr.-Ing Stefanie Dederichs, MBA <br> And Mr. Grunenberg.</h3>
-        <p>stefanie.dederichs@hochschule-rhein-waal.de<br>
-            Campus Kleve</p>
-             <h4 lang="en">Nithin Palakkat Joy</h4>
+        <!--Contact part-->
+         <div class="contactcontent">
+         <h2>Prof. Dr.-Ing Stefanie Dederichs, MBA <br> And Mr. Grunenberg.</h2>
+        <a href="mailto:stefanie.dederichs@hochschule-rhein-waal.de">stefanie.dederichs@hochschule-rhein-waal.de</a>
+            </br><a>Campus Kleve</a>
+             <h2>Mr. Nithin Palakkat Joy</h2>
              <p>Student: M.Sc.Mechanical Engineering</p>
-             
-             <!-- Feedback button part -->
-            <div class="checkoutProductButton">
-                <a href="" class="checkoutOurProductsBtn">Feedback</a>
+        <a href="mailto:nithinpalakkat@gmail.com">nithinpalakkat@gmail.com</a>
+         </div>
+        
+             <!-- Feedback part -->
+            <div class="feedbackbutton">
+             <form class="signin">
+              <input type="text" placeholder="Order Number"/>
+              <input type="text Area" placeholder="Feedback"/>
+              <button>Send Feedback</button>
+            </form>
             </div>
-        </div>
+        
         
          <!-- language menu -->
          <div class="bottom-row">
             <ul class="languageSelector">
-                <li><a href=""> English </a></li>
-                <li><a href=""> German </a></li>
+                <li><a id="en" class="lang"> English </a></li>
+                <li><a id="de" class="lang"> German </a></li>
             </ul>
              
              <!-- bottom logo -->

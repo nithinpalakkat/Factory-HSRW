@@ -4,13 +4,13 @@ aLangKeys['en']=new Array();
 aLangKeys['de']=new Array();
 
 aLangKeys['en']['home']='Home';
-aLangKeys['en']['about']='About';
+aLangKeys['en']['about']='About Us';
 aLangKeys['en']['products']='Products';
 aLangKeys['en']['contacts']='Contacts';
 aLangKeys['en']['signin']='Signin';
 
 aLangKeys['de']['home']='Home';
-aLangKeys['de']['about']='Unternehmen';
+aLangKeys['de']['about']='Über Uns';
 aLangKeys['de']['products']='Produkt';
 aLangKeys['de']['contacts']='Kontakt';
 aLangKeys['de']['signin']='Anmelden';

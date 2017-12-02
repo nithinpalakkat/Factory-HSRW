@@ -4,6 +4,8 @@
 <head>
 <title>HSRW i4.0: SignIn</title>
 <link href="contacts.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/translation.js"></script> 
 
 </head>
 
@@ -21,29 +23,31 @@
         <div class="main-nav">
             <!-- navigation menu -->
             <ul>
-                <li><a href="Home.html"> Home </a></li>
-                <li><a href="about.html"> About </a></li>
-                <li><a href="Products.html">Products </a></li>
-                <li><a href="contacts.html"> Contacts </a></li>
-                <li><a href=""> Sign In </a></li>
+                <li><a key="home" class="tr" href="Home.html"> Home </a></li>
+                <li><a key="about" class="tr" href="about.html"> About </a></li>
+                <li><a key="products" class="tr" href="Products.html">Products </a></li>
+                <li><a key="contacts" class="tr" href="contacts.html"> Contacts </a></li>
+                <li><a key="signin" class="tr" href=""> Sign In </a></li>
             </ul>
         </div>
         
         <!--login Form-->
-        <div class="Enter">
-          <div class="form">
-            <form class="Signin">
+    
+          <div class="signform">
+            <form class="signin">
               <input type="text" placeholder="User Name"/>
               <input type="password" placeholder="Password"/>
-              <button>Sign Up</button>
+              <button>Sign In</button>
             </form>
           </div>
-        </div>
+       
+        
+        
          <!-- language menu -->
          <div class="bottom-row">
             <ul class="languageSelector">
-                <li><a href=""> English </a></li>
-                <li><a href=""> German </a></li>
+                <li><a id="en" class="lang"> English </a></li>
+                <li><a id="de" class="lang"> German </a></li>
             </ul>
              
              <!-- bottom logo -->

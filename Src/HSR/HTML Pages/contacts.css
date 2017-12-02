@@ -1,2 +1,52 @@
 @import "basicstyle.css";
 
+.contactcontent{
+    position: absolute;
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.contactcontent h2 {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.contactcontent a {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+}
+
+.contactcontent p {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+}
+
+.feedbackbutton {
+    position: absolute;
+    width: 800px;
+    margin-left: 800px;
+    margin-top: 220px;
+}
+
+.form {
+    margin: 20px auto;
+    width: 300px;
+    color: white;
+    list-style-type: none;
+}
+
+.input{
+    padding: 10px;
+    font-size: inherit;
+}
+
+.input [type="text"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100px;
+    border: 2px solid white;
+}
