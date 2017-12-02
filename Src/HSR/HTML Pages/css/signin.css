@@ -4,7 +4,13 @@
     position: absolute;
     width: 600px;
     margin-left: 300px;
-    margin-top: 400px;
+    margin-top: 200px;
+}
+
+.signform {
+    color: white;
+    font-size: 16px;
+    text-align: left;
 }
 
 .form {
