@@ -3,7 +3,7 @@
 /*** products images styling starts ***/
 .productimages {
     position: absolute;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 60px;
 }
 
@@ -12,31 +12,63 @@
     color: white;
     font-size: 14px;
     text-align: right;
-    display: inline-block;
+    
 }
 
-.bottomtext {
-    margin-left: 300px;
+.bottomtext h2 {
+    margin-left: 700px;
 }
 
 /*** products images ***/
-.roundbottom, .squarebottom, .roundtop, .squaretop {
+.roundbottom {
     position: absolute;
     width: 140px;
     height: auto;
-    margin-top: 40px;
-}
-
-.squarebottom {
-    margin-left: 260px; 
+    
 }
 
 .roundtop {
-    margin-left: 500px;
+    position: absolute;
+    width: 150px;
+    height: auto;
 }
 
 .squaretop {
-    margin-left: 730px
+    position: absolute;
+    width: 155px;
+    height: auto;
+}
+
+.squarebottom {
+    position: absolute;
+    width: 165px;
+    height: auto;
+}
+
+.roundbottom {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.squarebottom {
+    margin-top: 30px;
+    margin-left: 350px; 
+}
+
+.roundtop {
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+.squaretop {
+    margin-top: 20px;
+    margin-left: 950px
 }
 
 /*** products images styling end ***/
+
+.kartbtn {
+    color: white;
+    font-size: 10px;
+    text-align: right;
+}
