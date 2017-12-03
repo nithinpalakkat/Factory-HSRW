@@ -24,7 +24,8 @@
     position: absolute;
     width: 140px;
     height: auto;
-    
+    margin-top: 30px;
+    margin-left: 100px;
 }
 
 .roundtop {
@@ -45,9 +46,8 @@
     height: auto;
 }
 
-.roundbottom {
-    margin-top: 30px;
-    margin-left: 100px;
+.roundbottom:hover {
+    border: 1px solid white;
 }
 
 .squarebottom {
