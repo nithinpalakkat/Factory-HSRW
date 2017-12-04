@@ -225,15 +225,23 @@
 input.Btmqnty {
     width: 75px;
     position: absolute;
-    margin-top: 365px;
+    margin-top: 363px;
     margin-left: 380px;
 }
 
 input.Topqnty {
     width: 75px;
     position: absolute;
-    margin-top: 365px;
+    margin-top: 363px;
     margin-left: 980px;
+}
+
+input[type=number], select {
+    padding: 3px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 /***Enter delivery details btn***/
@@ -247,7 +255,7 @@ input.Topqnty {
     text-align: center;
     width: auto;
     margin-top: 250px;
-    margin-left: 520px;
+    margin-left: 540px;
 }
 
 .kartbtn {
@@ -256,4 +264,5 @@ input.Topqnty {
     text-align: left;
     text-decoration: none;
 }
+
 /*** products images styling end ***/
