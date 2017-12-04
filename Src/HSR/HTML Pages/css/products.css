@@ -3,72 +3,257 @@
 /*** products images styling starts ***/
 .productimages {
     position: absolute;
-    margin-top: 150px;
+    margin-top: 180px;
     margin-left: 60px;
 }
 
 /*** products images heading ***/
-.productimages h1 {
+.productheading h1, h2 {
+    position: absolute;
+    color: white;
+    text-align: right;
+    display: inline-block;
+}
+
+.productheading h1{
+    margin-top: 150px;
+    font-size: 18px;
+}
+
+.productheading h2 {
+    font-size: 18px;
+    margin-top: 150px;
+    margin-left: 620px;
+}
+
+.namedesign h1, h2 {
+    position: absolute;
     color: white;
     font-size: 14px;
     text-align: right;
-    
+    display: inline-block;
 }
 
-.bottomtext h2 {
-    margin-left: 700px;
+.namedesign h1 {
+    margin-top: 190px;
+    margin-left: 300px;
 }
+
+.namedesign h2 {
+    margin-top: 190px;
+    margin-left: 900px;
+}
+
+.namecolour h1, h2 {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    text-align: right;
+    display: inline-block;
+}
+
+.namecolour h1 {
+    margin-top: 280px;
+    margin-left: 300px;
+}
+
+.namecolour h2 {
+    margin-top: 280px;
+    margin-left: 900px;
+}
+
+.vertical{
+   position: absolute;
+   width: 1px;
+   height: 250px;
+   margin-left: 670px;
+   margin-top: 160px;
+} 
 
 /*** products images ***/
 .roundbottom {
     position: absolute;
-    width: 140px;
-    height: auto;
-    margin-top: 30px;
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
     margin-left: 100px;
 }
 
 .roundtop {
     position: absolute;
-    width: 150px;
-    height: auto;
-}
-
-.squaretop {
-    position: absolute;
-    width: 155px;
-    height: auto;
-}
-
-.squarebottom {
-    position: absolute;
-    width: 165px;
-    height: auto;
-}
-
-.roundbottom:hover {
-    border: 1px solid white;
-}
-
-.squarebottom {
-    margin-top: 30px;
-    margin-left: 350px; 
-}
-
-.roundtop {
+    width: 180px;
+    height: 180px;
     margin-top: 20px;
     margin-left: 700px;
 }
 
-.squaretop {
-    margin-top: 20px;
-    margin-left: 950px
+.roundbottom {
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 5px 8px;
 }
 
-/*** products images styling end ***/
+.roundtop {
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 5px 8px;
+}
+
+/***image selection bottom Round***/
+
+.selectionb , .selectiont {
+  position: absolute;
+  width: 100px;
+  height: auto;
+}
+
+.designselector {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+
+.round , .square , .round1 , .square1 {
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    position: absolute
+;}
+
+.round {
+    margin-top: 220px;
+    margin-left: 300px;
+}
+
+.square {
+    margin-top: 220px;
+    margin-left: 400px;
+}
+
+.round1 {
+    margin-top: 220px;
+    margin-left: 900px;
+}
+
+.square1 {
+    margin-top: 220px;
+    margin-left: 1000px;
+}
+
+.colorselcetor {
+  position: absolute;
+}
+
+.redbottom, .whitebottom, .blackbottom {
+  position: absolute;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.redbottom {
+  background: Red;
+  margin-top: 310px;
+  margin-left: 420px;
+}
+
+.whitebottom {
+  background: White;
+  margin-top: 310px;
+  margin-left: 490px;
+}
+
+.blackbottom {
+  background: Black;
+  margin-top: 310px;
+  margin-left: 560px;
+}
+
+.redtop, .whitetop, .blacktop {
+  position: absolute;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.redtop {
+  background: Red;
+  margin-top: 310px;
+  margin-left: 1020px;
+}
+
+.whitetop {
+  background: White;
+  margin-top: 310px;
+  margin-left: 1090px;
+}
+
+.blacktop {
+  background: Black;
+  margin-top: 310px;
+  margin-left: 1160px;
+}
+
+.quantityB {
+    position: absolute;
+    color: white;
+    padding: 5px 12px; 
+    width:140px;
+    border-radius: 4px;
+    border: 1px solid White;
+    margin-top: 360px;
+    margin-left: 300px;
+}
+
+.quantityT {
+    position: absolute;
+    color: white;
+    padding: 5px 12px; 
+    width:140px;
+    border-radius: 4px;
+    border: 1px solid White;
+    display: inline-block;
+    margin-top: 360px;
+    margin-left: 900px;
+}
+
+input.Btmqnty {
+    width: 75px;
+    position: absolute;
+    margin-top: 365px;
+    margin-left: 380px;
+}
+
+input.Topqnty {
+    width: 75px;
+    position: absolute;
+    margin-top: 365px;
+    margin-left: 980px;
+}
+
+/***Enter delivery details btn***/
+.kart {
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: auto;
+    margin-top: 250px;
+    margin-left: 520px;
+}
 
 .kartbtn {
     color: white;
-    font-size: 10px;
-    text-align: right;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
 }
+/*** products images styling end ***/
