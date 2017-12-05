@@ -24,7 +24,7 @@
             <!-- navigation menu -->
             <ul>
                 <li><a key="home" class="tr" href="Home.html"> Home </a></li>
-                <li><a key="about" class="tr" href=""> About Us </a></li>
+                <li><a key="about" class="tr" href="about.html"> About Us </a></li>
                 <li><a key="products" class="tr" href="Products.html"> Products </a></li>
                 <li><a key="contacts" class="tr" href="contacts.html"> Contacts </a></li>
                 <li><a key="signin" class="tr" href="signin.html"> Sign In </a></li>
@@ -32,18 +32,30 @@
         </div>
         
         <!-- content part -->
-     <div class="productcontent">
+     <div class="deliverydetails">
         <h1>Delivery Details</h1>
-        <p>Select the delivery point for the product to be delivered:</p>
-    
+        <form class="person" id="orderperson">
+        <label for="order">Name</label>
+        <input type="text" id="order" name="order" placeholder="Your Full Name">
+         </form>
+        <p>Select a delivery point:</p>
+        </div>
+        
           <!-- checkout button part -->
-            <div class="checkoutProductButton">
-                <a href="" class="checkoutOurProductsBtn"> DELIVERY POINT:A</a>
-                <a href="" class="checkoutOurProductsBtn"> DELIVERY POINT:B</a>
-                <a href="" class="checkoutOurProductsBtn"> DELIVERY POINT:C</a>
-                <a href="" class="checkoutOurProductsBtn"> DELIVERY POINT:D</a>
+            <div class="deliverypoints">
+                <a class="deliverypointsBtna"> DELIVERY POINT:A</a>
+                <a class="deliverypointsBtnb"> DELIVERY POINT:B</a>
+                <a class="deliverypointsBtnc"> DELIVERY POINT:C</a>
+                <a class="deliverypointsBtnd"> DELIVERY POINT:D</a>
             </div>
         
+         <hr class="vertical"/>
+         
+        <div class="cartname">
+        <h1>Your Cart</h1>
+        
+        </div>
+         
          <div class="ConfirmYourOrder">
          <a href="" class="orderconfirmation"> Confirm Your Order</a>
          </div>

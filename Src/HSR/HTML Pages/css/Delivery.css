@@ -1,47 +1,116 @@
 @import "basicstyle.css";
 
 
-.productcontent {
+.deliverydetails {
     position: absolute;
-    width: 400px;
-    margin-left: 0;
-    margin-top: 0;
+    width: 600px;
+    height: auto;
 }
 
-.productcontent h1 {
+.deliverydetails h1 {
     color: white;
     font-size: 24px;
     text-align: left;
-    margin-top: 275px;
+    margin-top: 150px;
     margin-left: 200px;
 }
 
-.productcontent p {
+.person {
+    position: absolute;
+    left : 200px;
+    top  : 175px;
+    margin: 20px auto;
+    width: 500px;
+    color: white;
+}
+
+.person.label {
+    font-size: 14px;
+}
+
+.deliverydetails p {
     color: white;
     font-size: 18px;
     text-align: left;
     margin-left: 200px;
+    margin-top: 55px;
 }
 
-.checkoutProductButton {
-    margin-top: 16px;
-    margin-left: 200px;
-}
-
-.checkoutOurProductsBtn {
-    border: 1px solid white;
-    padding: 5px, 30px;
-    color: #35677C;
-    text-decoration: none;
-    margin-right: 5px;
-    font-size: 13px;
-    text-transform: uppercase;
-    background-color: white;
-    font-family: "Roboto", sans-serif;
-}
-
-.checkoutOurProductsBtn:hover {
-    background-color: #35677C;
+.deliverypoints {
+    position: absolute;
     color: white;
-    transition: all .5s ease-in;
+}
+
+.deliverypointsBtna , .deliverypointsBtnb, .deliverypointsBtnc , .deliverypointsBtnd {
+    position: absolute;
+    width: 200px;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.deliverypointsBtna {
+    margin-left: 200px;
+    margin-top: 270px;
+}
+
+.deliverypointsBtnb {
+    margin-left: 200px;
+    margin-top: 320px;
+}
+
+.deliverypointsBtnc {
+    margin-left: 200px;
+    margin-top: 370px;
+}
+
+.deliverypointsBtnd {
+    margin-left: 200px;
+    margin-top: 420px;
+}
+
+.vertical{
+    position: absolute;
+   width: 1px;
+   height: 300px;
+   margin-left: 500px;
+   margin-top: 150px;
+} 
+
+.cartname {
+    position: absolute;
+    height: auto;
+}
+
+.cartname h1 {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 600px;
+}
+
+.ConfirmYourOrder {
+    position: absolute;
+    width: 200px;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: White;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 1050px;
+    margin-top: 420px;
+}
+
+.orderconfirmation {
+    color: darkblue;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
 }
