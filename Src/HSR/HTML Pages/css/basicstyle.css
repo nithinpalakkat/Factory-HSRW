@@ -16,8 +16,8 @@ body {
 .main-nav {
     text-align: right;
     width: auto;
-    float:right;
-    margin-top: 80px;
+    float: right;
+    margin-top: 40px;
     margin-right: 100px;
 }
 
@@ -33,7 +33,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 5px 30px;
-    font-size: 15px;
+    font-size: 17px;
     text-align: left;
 }
 
@@ -45,17 +45,23 @@ body {
 /*** top logo ***/
 .logo img {
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 120px;
     width: 60px;
     height: auto;
     float: left;
 }
 
+.cartimg img {
+    position: absolute;
+    width: 40px;
+    margin-top: 45px;
+    margin-left: 1070px;
+}
 /*** bottom language menu starts ***/
 
 .bottom-row {
     position: absolute;
-    margin-top: 580px;
+    margin-top: 500px;
     margin-left: 510px;
 }
 
@@ -76,6 +82,7 @@ body {
     padding: 5px 30px;
     font-size: 15px;
     border: 1px solid white;
+    cursor: pointer;
 }
 
 .languageSelector li a:hover {
@@ -96,8 +103,7 @@ body {
 /*** copright text starts ***/
 footer {
 	position: absolute;
-    margin-top: 46%;
-	height: 100px;
+    margin-top: 650px;
     width: 100%;
 }
 

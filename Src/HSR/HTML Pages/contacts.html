@@ -25,15 +25,19 @@
             <!-- navigation menu -->
             <ul>
                 <li><a key="home" class="tr" href="Home.html"> Home </a></li>
-                <li><a key="about" class="tr" href="about.html"> About </a></li>
+                <li><a key="about" class="tr" href="about.html"> About Us</a></li>
                 <li><a key="products" class="tr" href="Products.html">Products </a></li>
-                <li><a key="contacts" class="tr" href=""> Contacts </a></li>
+                <li><a key="contacts" class="tr" href="contacts.html"> Contacts </a></li>
                 <li><a key="signin" class="tr" href="signin.html"> Sign In </a></li>
             </ul>
         </div>
-        
+          
+      <div class="cartimg"><a href="Delivery.html"><img src="Images/cart.png"/></a></div>
+          
         <!--Contact part-->
+        
          <div class="contactcontent">
+             <h1 key="contacts" class="tr">Contacts</h1>
          <h2>Prof. Dr.-Ing Stefanie Dederichs, MBA <br> And Mr. Grunenberg.</h2>
         <a href="mailto:stefanie.dederichs@hochschule-rhein-waal.de">stefanie.dederichs@hochschule-rhein-waal.de</a>
             </br><a>Campus Kleve</a>
@@ -42,14 +46,16 @@
         <a href="mailto:nithinpalakkat@gmail.com">nithinpalakkat@gmail.com</a>
          </div>
         
+        <hr class="vertical"/>
+        
              <!-- Feedback part -->
             <div>
              <form class="feed" id="userfeedback">
-                <label for="ordernumber">Order Number</label>
+                <label for="ordernumber" key="FBO" class="tr">Order Number</label>
                 <input type="text" id="ordernumber" name="ordernumber" placeholder="Your Order Number">
-                <label for="feedback">FeedBack</label>
+                <label for="feedback" key="FB" class="tr">FeedBack</label>
                 <textarea class="feedbacktextarea" rows="6" cols="38" name="feedback" form="userfeedback" placeholder="Your feedback"></textarea>
-                <input type="submit" value="Submit">
+                <input type="submit" key="FBSUB" class="tr" value="Send">
             </form>
             </div>
         

@@ -158,19 +158,19 @@
 .redbottom {
   background: Red;
   margin-top: 310px;
-  margin-left: 420px;
+  margin-left: 460px;
 }
 
 .whitebottom {
   background: White;
   margin-top: 310px;
-  margin-left: 490px;
+  margin-left: 530px;
 }
 
 .blackbottom {
   background: Black;
   margin-top: 310px;
-  margin-left: 560px;
+  margin-left: 600px;
 }
 
 .redtop, .whitetop, .blacktop {
@@ -184,22 +184,22 @@
 .redtop {
   background: Red;
   margin-top: 310px;
-  margin-left: 1020px;
+  margin-left: 1060px;
 }
 
 .whitetop {
   background: White;
   margin-top: 310px;
-  margin-left: 1090px;
+  margin-left: 1130px;
 }
 
 .blacktop {
   background: Black;
   margin-top: 310px;
-  margin-left: 1160px;
+  margin-left: 1200px;
 }
 
-.quantityB {
+.quantityB p {
     position: absolute;
     color: white;
     padding: 5px 12px; 
@@ -207,10 +207,12 @@
     border-radius: 4px;
     border: 1px solid White;
     margin-top: 360px;
-    margin-left: 300px;
+    margin-left: 460px;
 }
 
-.quantityT {
+
+
+.quantityT p {
     position: absolute;
     color: white;
     padding: 5px 12px; 
@@ -245,17 +247,17 @@ input[type=number], select {
 }
 
 /***Enter delivery details btn***/
-.kart {
+.kart p {
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     padding: 8px 12px;
     border: 1px solid white;
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
-    width: auto;
+    width: 200px;
     margin-top: 250px;
-    margin-left: 540px;
+    margin-left: 500px;
 }
 
 .kartbtn {

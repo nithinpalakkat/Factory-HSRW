@@ -16,6 +16,7 @@
 }
 
 .person {
+    
     position: absolute;
     left : 200px;
     top  : 175px;
@@ -26,6 +27,10 @@
 
 .person.label {
     font-size: 14px;
+}
+
+input.YFName {
+    border-radius: 4px;
 }
 
 .deliverydetails p {
@@ -39,6 +44,12 @@
 .deliverypoints {
     position: absolute;
     color: white;
+}
+
+.deliverypoints li{
+    line-height: 0px;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .deliverypointsBtna , .deliverypointsBtnb, .deliverypointsBtnc , .deliverypointsBtnd {
@@ -81,12 +92,10 @@
    margin-top: 150px;
 } 
 
-.cartname {
-    position: absolute;
-    height: auto;
-}
 
 .cartname h1 {
+    width: 300px;
+    position: absolute;
     color: white;
     font-size: 24px;
     text-align: left;
@@ -96,7 +105,7 @@
 
 .ConfirmYourOrder {
     position: absolute;
-    width: 200px;
+    width: 300px;
     color: white;
     padding: 8px 12px;
     border: 1px solid white;
@@ -104,13 +113,18 @@
     background: White;
     cursor: pointer;
     text-align: center;
-    margin-left: 1050px;
+    margin-left: 950px;
     margin-top: 420px;
 }
 
 .orderconfirmation {
+    list-style-type: none;
+    text-decoration: none;
     color: darkblue;
-    font-size: 20px;
-    text-align: left;
+    font-size: 22px;
+    text-align: center;
+}
+
+.ConfirmYourOrder li a {
     text-decoration: none;
 }

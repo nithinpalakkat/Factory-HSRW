@@ -1,11 +1,16 @@
 @import "basicstyle.css";
 
 /*** contact information style starts ***/
+.tr {
+    font-size: 20px;
+    color: white;  
+}
+
 .contactcontent{
     position: absolute;
     width: 600px;
-    margin-left: 100px;
-    margin-top: 200px;
+    margin-left: 150px;
+    margin-top: 150px;
 }
 
 .contactcontent h2 {
@@ -28,12 +33,20 @@
 
 /*** contact information style end ***/
 
+.vertical{
+   position: absolute;
+   width: 1px;
+   height: 300px;
+   margin-left: 650px;
+   margin-top: 150px;
+} 
+
 /*** feedback form style starts ***/
 
 .feed {
     position: absolute;
-    left : 700px;
-    top  : 200px;
+    left : 800px;
+    top  : 150px;
     margin: 20px auto;
     width: 300px;
     color: white;

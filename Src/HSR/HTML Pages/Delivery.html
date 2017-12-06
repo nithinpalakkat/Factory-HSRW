@@ -30,36 +30,38 @@
                 <li><a key="signin" class="tr" href="signin.html"> Sign In </a></li>
             </ul>
         </div>
-        
+          
+      <div class="cartimg"><a href="Delivery.html"><img src="Images/cart.png"/></a></div>
+          
         <!-- content part -->
      <div class="deliverydetails">
-        <h1>Delivery Details</h1>
+        <h1 key="DD" class="tr">Delivery Address</h1>
         <form class="person" id="orderperson">
-        <label for="order">Name</label>
-        <input type="text" id="order" name="order" placeholder="Your Full Name">
+        <label for="order" key="DDN" class="tr"s>Name</label>
+        <input class="YFName" type="text" id="order" name="order" placeholder="Your Full Name">
          </form>
-        <p>Select a delivery point:</p>
+        <p key="DDSDP" class="tr">Select a delivery point:</p>
         </div>
         
           <!-- checkout button part -->
             <div class="deliverypoints">
-                <a class="deliverypointsBtna"> DELIVERY POINT:A</a>
-                <a class="deliverypointsBtnb"> DELIVERY POINT:B</a>
-                <a class="deliverypointsBtnc"> DELIVERY POINT:C</a>
-                <a class="deliverypointsBtnd"> DELIVERY POINT:D</a>
+                <li class="deliverypointsBtna"><a class="tr" key="DDSDP1"> DELIVERY POINT: A</a></li>
+                <li class="deliverypointsBtnb"><a class="tr" key="DDSDP2"> DELIVERY POINT: B</a></li>
+                <li class="deliverypointsBtnc"><a class="tr" key="DDSDP3"> DELIVERY POINT: C</a></li>
+                <li class="deliverypointsBtnd"><a class="tr" key="DDSDP4"> DELIVERY POINT: D</a></li>
             </div>
         
          <hr class="vertical"/>
          
         <div class="cartname">
-        <h1>Your Cart</h1>
+        <h1 class="tr" key="YC">Your Cart</h1>
         
-        </div>
+       
          
-         <div class="ConfirmYourOrder">
-         <a href="" class="orderconfirmation"> Confirm Your Order</a>
+           <div class="ConfirmYourOrder">
+              <li class="orderconfirmation"><a href=""  class="tr" key="CYO"> Confirm Your Order</a></li>
+           </div>
          </div>
-              
          <!-- language menu -->
          <div class="bottom-row">
             <ul class="languageSelector">
