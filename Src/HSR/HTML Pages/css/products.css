@@ -66,23 +66,23 @@
    position: absolute;
    width: 1px;
    height: 250px;
-   margin-left: 670px;
+   margin-left: 700px;
    margin-top: 160px;
 } 
 
 /*** products images ***/
 .roundbottom {
     position: absolute;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     margin-top: 20px;
     margin-left: 100px;
 }
 
 .roundtop {
     position: absolute;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     margin-top: 20px;
     margin-left: 700px;
 }
@@ -158,19 +158,19 @@
 .redbottom {
   background: Red;
   margin-top: 310px;
-  margin-left: 460px;
+  margin-left: 480px;
 }
 
 .whitebottom {
   background: White;
   margin-top: 310px;
-  margin-left: 530px;
+  margin-left: 550px;
 }
 
 .blackbottom {
   background: Black;
   margin-top: 310px;
-  margin-left: 600px;
+  margin-left: 620px;
 }
 
 .redtop, .whitetop, .blacktop {
@@ -184,19 +184,19 @@
 .redtop {
   background: Red;
   margin-top: 310px;
-  margin-left: 1060px;
+  margin-left: 1080px;
 }
 
 .whitetop {
   background: White;
   margin-top: 310px;
-  margin-left: 1130px;
+  margin-left: 1150px;
 }
 
 .blacktop {
   background: Black;
   margin-top: 310px;
-  margin-left: 1200px;
+  margin-left: 1220px;
 }
 
 .quantityB p {
@@ -207,7 +207,7 @@
     border-radius: 4px;
     border: 1px solid White;
     margin-top: 360px;
-    margin-left: 460px;
+    margin-left: 480px;
 }
 
 
@@ -257,7 +257,7 @@ input[type=number], select {
     text-align: center;
     width: 200px;
     margin-top: 250px;
-    margin-left: 500px;
+    margin-left: 530px;
 }
 
 .kartbtn {
