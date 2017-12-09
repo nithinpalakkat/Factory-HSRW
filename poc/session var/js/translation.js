@@ -22,19 +22,61 @@ aLangKeys['de']['text6']='PHPSession Variable Test zweite Seite';
 aLangKeys['de']['text7']='HTML ist ziemlich einfach zu lernen und Nithin geht es gut.';
 aLangKeys['de']['text8']='letzte Seite';
 
-
-$(document).ready(function() {
-
+$(document).ready(function() {    
     // onclick behavior
     $('.lang').click( function() {
         var lang = $(this).attr('id'); // obtain language id
-        jQuery('languageSelector').load('session.php?lanuagekey='+lang);
-        
-        // translate all translatable elements
-        $('.tr').each(function(i){
-          $(this).text(aLangKeys[lang][ $(this).attr('key') ]);
-        });
-
+        checkLanguageCookieAndLoadLanguage(lang);
     } );
 
 });
+
+function loadSavedCookieLanguageTranslation() {
+    var langCode = getCookie("language");
+    checkLanguageCookieAndLoadLanguage(langCode);
+}
+
+
+function loadLanguageTranslationForCode(langCode) {
+    // translate all translatable elements
+    $('.tr').each(function(i){
+      $(this).text(aLangKeys[langCode][ $(this).attr('key') ]);
+    });
+}
+
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function checkLanguageCookieAndLoadLanguage(newLangCode) {
+    var langCode = getCookie("language");
+    if (langCode == "") {
+        langCode = "en";
+    }
+    
+    if (langCode != newLangCode) {
+        langCode = newLangCode;
+        setCookie("language", langCode, 2);
+    }
+    
+    loadLanguageTranslationForCode(langCode);
+} 
