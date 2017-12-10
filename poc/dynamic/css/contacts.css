@@ -1,0 +1,97 @@
+@import "basicstyle.css";
+
+/*** contact information style starts ***/
+.tr {
+    font-size: 20px;
+    color: white;  
+}
+
+.contactcontent{
+    position: absolute;
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.contactcontent h2 {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.contactcontent a {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+}
+
+.contactcontent p {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+}
+
+/*** contact information style end ***/
+
+.vertical{
+   position: absolute;
+   width: 1px;
+   height: 300px;
+   margin-left: 650px;
+   margin-top: 150px;
+} 
+
+/*** feedback form style starts ***/
+
+.feed {
+    position: absolute;
+    left : 800px;
+    top  : 150px;
+    margin: 20px auto;
+    width: 300px;
+    color: white;
+}
+
+.input{
+    padding: 10px;
+    font-size: inherit;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #33677D;
+    font-size: 14px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #33677D;
+     border: 1px solid #33677D;
+}
+
+.feedbacktextarea {
+   padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+/*** feedback form style end ***/

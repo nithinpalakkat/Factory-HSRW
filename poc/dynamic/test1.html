@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>HSRW i4.0</title>
+<link href="css/products.css" rel="stylesheet" type="text/css">
+
+<script type = "text/javascript">
+        function pic1()
+        {
+            document.getElementById("img").src = "dynamic/Images/Bottom_Red.PNG";
+        }
+        function pic2()
+        {
+            document.getElementById("img").src ="dynamic/Images/Bottom_White.PNG";
+        }
+        function pic3()
+        {
+            document.getElementById("img").src ="dynamic/Images/Bottom_Black.PNG";
+        } 
+        function pic4()
+        {
+            document.getElementById("img1").src = "dynamic/Images/Bottom_Red_1.PNG";
+        }
+        function pic5()
+        {
+            document.getElementById("img1").src ="dynamic/Images/Bottom_White_1.PNG";
+        }
+        function pic6()
+        {
+            document.getElementById("img1").src ="dynamic/Images/Bottom_Black_1.PNG";
+        } 
+    
+         function demoShowS()
+            {p1.style.visibility="hidden";
+             p2.style.visibility="hidden";
+             p3.style.visibility="hidden";
+             p4.style.visibility="Visible";
+             p5.style.visibility="Visible";
+             p6.style.visibility="Visible";
+             img.style.visibility="hidden";
+             img1.style.visibility="visible";
+            }
+         function demoShow()
+            {p1.style.visibility="Visible";
+             p2.style.visibility="Visible";
+             p3.style.visibility="Visible";
+             p4.style.visibility="hidden";
+             p5.style.visibility="hidden";
+             p6.style.visibility="hidden";
+             img1.style.visibility="hidden";
+             img.style.visibility="visible";
+            }
+        
+    </script>
+</head>
+
+<body>
+
+            
+    <img src = "dynamic/Images/Bottom_Red.PNG" id = "img"/>
+    <img src = "dynamic/Images/Bottom_Red_1.PNG" id = "img1" style="visibility: hidden;"/>
+     
+    
+            
+            
+    <input type="button" onclick="demoShow()" value="Round" />
+    <input type="button" onclick="demoShowS()" value="Square" />
+         
+    <input id="p1" type="button" style="width: 20px; height: 20px; background: Red;" value="" onclick="pic1()" /> 
+    <input id="p2" type="button" style="width: 20px; height: 20px; background: White;" value="" onclick="pic2()"/>
+    <input id="p3" type="button" style="width: 20px; height: 20px; background: Black;" value="" onclick="pic3()"/>
+    
+    <input id="p4" type="button" style="width: 20px; height: 20px; background: Red; visibility: hidden;" value="" onclick="pic4()" /> 
+    <input id="p5" type="button" style="width: 20px; height: 20px; background: White; visibility: hidden;" value="" onclick="pic5()"/>
+    <input id="p6" type="button" style="width: 20px; height: 20px; background: Black; visibility: hidden;" value="" onclick="pic6()"/>
+
+            
+          <!--  <select id="Images1" name="Images1" onChange = "jsDropDown('cful','Images',this.value)">
+                <option value="selectcolour">Select Your Colour</option>
+                <option value="Top_Red">Red</option>
+                <option value="Top_White">White</option>
+                <option value="Top_Black">Black</option>
+            </select>
+            
+    <img src="dynamic/Images/Bottom_Red.PNG" id="cful"/>
+           <!-- <select id="slct2" name="slct2"></select>
+        
+       <!-- <select id="slct3" name="slct3" onchange="populate(this.id,'slct4')">
+          <option class="round1" value="round">Round</option>
+          <option class="square1" value="square">Square</option>
+        </select>
+        <select id="slct4" name="slct4"></select>
+        
+        <!--products selection images bottom-->
+       <!-- <div class="productimages">
+            
+            <img class="roundbottom" id="roundbottom" src="Images/Bottom_Red.PNG" style="visibility: hidden">
+            <img class="roundbottom" id="squarebottom" src="Images/Bottom_Red_1.PNG" style="visibility: hidden">
+            <img class="roundbottom" id="roundbottom" src="Images/Bottom_White.PNG" style="visibility: hidden">
+            <img class="roundbottom" id="squarebottom" src="Images/Bottom_White_1.PNG" style="visibility: hidden">
+            <img class="roundbottom" id="roundbottom" src="Images/Bottom_Black.PNG" style="visibility: hidden">
+            <img class="roundbottom" id="squarebottom" src="Images/Bottom_Black_1.PNG" style="visibility: hidden">
+            <img class="roundtop" id="roundtop" src="Images/Top_Red.png" style="visibility: hidden">
+            <img class="roundtop" id="squaretop" src="Images/Top_Red_1.png" style="visibility: hidden">
+            <img class="roundtop" id="roundtop" src="Images/Top_White.png" style="visibility: hidden">
+            <img class="roundtop" id="squaretop" src="Images/Top_White_1.PNG" style="visibility: hidden">
+            <img class="roundtop" id="roundtop" src="Images/Top_Black.png" style="visibility: hidden">
+            <img class="roundtop" id="squaretop" src="Images/Top_Black_1.PNG" style="visibility: hidden">
+            
+            <div class="kart">
+                <a href="Delivery.html" class="kartbtn"><p key="BTN" class="tr">Proceed to Cart</p></a>
+            </div>
+        </div>
+       
+        <div class="namedesign"><h1 key="ND1" class="tr">Select Design:</h1><h2 key="ND2" class="tr">Select Design:</h2></div>
+        
+        <div class="designselect">
+           <a class="round" href="">Round</a>
+           <a class="square" href="">Square</a>
+           <a class="round1" href="">Round</a>
+           <a class="square1" href="">Square</a>
+        </div>-->
+        
+  
+    
+    </body>
+
+</html>

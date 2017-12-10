@@ -7,7 +7,50 @@
 <link href="css/products.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/translation.js"></script>
+<script type = "text/javascript">
+        function pic1(){
+            document.getElementById("img").src = "Images/Bottom_Red.PNG";
+            }
+        function pic2(){
+            document.getElementById("img").src ="Images/Bottom_White.PNG";
+            }
+        function pic3(){
+            document.getElementById("img").src ="Images/Bottom_Black.PNG";
+            } 
+        function pic4(){
+            document.getElementById("img1").src = "Images/Bottom_Red_1.PNG";
+            }
+        function pic5(){
+            document.getElementById("img1").src ="Images/Bottom_White_1.PNG";
+            }
+        function pic6(){
+            document.getElementById("img1").src ="Images/Bottom_Black_1.PNG";
+            } 
     
+        function demoShowS(){
+             p1.style.visibility="hidden";
+             p2.style.visibility="hidden";
+             p3.style.visibility="hidden";
+             p4.style.visibility="Visible";
+             p5.style.visibility="Visible";
+             p6.style.visibility="Visible";
+             img.style.visibility="hidden";
+             img1.style.visibility="visible";
+            }
+        function demoShow(){
+             p1.style.visibility="Visible";
+             p2.style.visibility="Visible";
+             p3.style.visibility="Visible";
+             p4.style.visibility="hidden";
+             p5.style.visibility="hidden";
+             p6.style.visibility="hidden";
+             img1.style.visibility="hidden";
+             img.style.visibility="visible";
+            }
+        
+    </script>
+
+
 </head>
 
 <body>
@@ -42,39 +85,31 @@
             
         <hr class="vertical"/>
         
-        <!--products selection images bottom-->
-        <div class="productimages">
+       <div class="firstimg">       
+           <img src = "Images/Bottom_Red.PNG" id = "img"/>
+       </div>
+       <div class="secondimg">
+           <img src = "Images/Bottom_Red_1.PNG" id = "img1" style="visibility: hidden;"/>
+       </div>
             
-            <img class="roundbottom" id="roundbottom" src="Images/1.RoundWhite.png">
-            <!--<img class="squarebottom" id="squarebottom" src="Images/2.SquareWhite.png">-->
-            
-            <img class="roundtop" id="roundtop" src="Images/3.RoundWhitetop.png">
-            <!--<img class="squaretop" id="squaretop" src="Images/4.SquareWhitetop.png">-->
-            
-            <div class="kart">
-                <a href="Delivery.html" class="kartbtn"><p key="BTN" class="tr">Proceed to Cart</p></a>
-            </div>
-        </div>
+       <div class="firstround">     
+           <input type="button" onclick="demoShow()" value="Round" />
+           <input type="button" onclick="demoShowS()" value="Square" />
+       </div>
        
-        <div class="namedesign"><h1 key="ND1" class="tr">Select Design:</h1><h2 key="ND2" class="tr">Select Design:</h2></div>
-        
-        <div class="designselect">
-           <a class="round" href="">Round</a>
-           <a class="square" href="">Square</a>
-           <a class="round1" href="">Round</a>
-           <a class="square1" href="">Square</a>
+       <div class="buttonbox">
+    <input id="p1" type="button" style="width: 20px; height: 20px; background: Red;" value="" onclick="pic1()" /> 
+    <input id="p2" type="button" style="width: 20px; height: 20px; background: White;" value="" onclick="pic2()"/>
+    <input id="p3" type="button" style="width: 20px; height: 20px; background: Black;" value="" onclick="pic3()"/>
+    
+    <input id="p4" type="button" style="width: 20px; height: 20px; background: Red; visibility: hidden;" value="" onclick="pic4()" /> 
+    <input id="p5" type="button" style="width: 20px; height: 20px; background: White; visibility: hidden;" value="" onclick="pic5()"/>
+    <input id="p6" type="button" style="width: 20px; height: 20px; background: Black; visibility: hidden;" value="" onclick="pic6()"/>
         </div>
+    <div class="namedesign"><h1 key="ND1" class="tr">Select Design:</h1><h2 key="ND2" class="tr">Select Design:</h2></div>    
+    <div class="namecolour"><h1 key="NC1" class="tr">Select Colour:</h1><h2 key="NC2" class="tr">Select Colour:</h2></div>
         
-        <div class="namecolour"><h1 key="NC1" class="tr">Select Colour:</h1><h2 key="NC2" class="tr">Select Colour:</h2></div>
         
-        <div class="colorselcetor">
-           <a class="redbottom" href=""></a>
-           <a class="whitebottom" href=""></a>
-           <a class="blackbottom" href=""></a>
-           <a class="redtop" href=""></a>
-           <a class="whitetop" href=""></a>
-           <a class="blacktop" href=""></a>
-        </div>
         <div>
         <label class="quantityB"><p key="QT1" class="tr">Quantity:</p></label>
         <input class="Btmqnty" min="1" type="number" id="quantityB" name="quantityB" value="1" />
@@ -85,18 +120,6 @@
         <input class="Topqnty" min="1" type="number" id="quantityT" name="quantityT" value="1" />
         </div>
         
-        <!--products selection images
-        <div class="selectionb">
-        <img class="Redb" id="Redb" src="Images/Redb.png">
-        <img class="Whiteb" id="Whiteb" src="Images/Whiteb.png">
-        <img class="Blackb" id="Blackb" src="Images/Blackb.png">
-        </div>
-        
-        <div class="selectiont">
-        <img class="SRedb" id="SRedb" src="Images/Squareredb.png">
-        <img class="SWhiteb" id="SWhiteb" src="Images/Squarewhiteb.png">
-        <img class="SBlackb" id="SBlackb" src="Images/Squareblackb.png">
-        </div>-->
          <!-- language menu -->
          <div class="bottom-row">
             <ul class="languageSelector">

@@ -1,0 +1,130 @@
+@import "basicstyle.css";
+
+
+.deliverydetails {
+    position: absolute;
+    width: 600px;
+    height: auto;
+}
+
+.deliverydetails h1 {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.person {
+    
+    position: absolute;
+    left : 200px;
+    top  : 175px;
+    margin: 20px auto;
+    width: 500px;
+    color: white;
+}
+
+.person.label {
+    font-size: 14px;
+}
+
+input.YFName {
+    border-radius: 4px;
+}
+
+.deliverydetails p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 55px;
+}
+
+.deliverypoints {
+    position: absolute;
+    color: white;
+}
+
+.deliverypoints li{
+    line-height: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.deliverypointsBtna , .deliverypointsBtnb, .deliverypointsBtnc , .deliverypointsBtnd {
+    position: absolute;
+    width: 200px;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.deliverypointsBtna {
+    margin-left: 200px;
+    margin-top: 270px;
+}
+
+.deliverypointsBtnb {
+    margin-left: 200px;
+    margin-top: 320px;
+}
+
+.deliverypointsBtnc {
+    margin-left: 200px;
+    margin-top: 370px;
+}
+
+.deliverypointsBtnd {
+    margin-left: 200px;
+    margin-top: 420px;
+}
+
+.vertical{
+    position: absolute;
+   width: 1px;
+   height: 300px;
+   margin-left: 500px;
+   margin-top: 150px;
+} 
+
+
+.cartname h1 {
+    width: 300px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 600px;
+}
+
+.ConfirmYourOrder {
+    position: absolute;
+    width: 300px;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: White;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 950px;
+    margin-top: 420px;
+}
+
+.orderconfirmation {
+    list-style-type: none;
+    text-decoration: none;
+    color: darkblue;
+    font-size: 22px;
+    text-align: center;
+}
+
+.ConfirmYourOrder li a {
+    text-decoration: none;
+}

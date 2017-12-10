@@ -6,7 +6,7 @@ body {
 
 /*** Background image loading part ***/
 .backgroundimage {
-    background-image: url(../Images/background.png);
+    background-image: url(../Images/background.jpg);
     height: 100vh;
     background-size: contain;
     background-position: right;
