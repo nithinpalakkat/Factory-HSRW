@@ -1,11 +1,6 @@
 @import "basicstyle.css";
 
 /*** products images styling starts ***/
-.productimages {
-    position: absolute;
-    margin-top: 180px;
-    margin-left: 60px;
-}
 
 /*** products images heading ***/
 .productheading h1, h2 {
@@ -71,7 +66,7 @@
    margin-top: 160px;
 } 
 
-/*** products images ***/
+/*** products images bottom ***/
 .firstimg {
     position: absolute;
     margin-top: 200px;
@@ -105,149 +100,158 @@
 }
 
 .buttonbox {
+    width: 300px;
     position: absolute;
     margin-top: 310px;
     margin-left: 480px;
 }
 
-/***image selection bottom Round***/
-
-.selectionb , .selectiont {
-  position: absolute;
-  width: 100px;
-  height: auto;
-}
-
-.designselector {
+#p4 {
     position: absolute;
-    color: white;
-    font-size: 20px;
+    margin-left: -248px;
 }
 
-.round , .square , .round1 , .square1 {
+#p5 {
+    position: absolute;
+    margin-left: -164px;
+}
+
+#p6 {
+    position: absolute;
+    margin-left: -80px;
+}
+
+
+input[type=button] {
+    width: 100px;
+    height: 30px;
+    background-color: #33677D;
+    font-size: 14px;
     color: white;
-    font-size: 16px;
-    padding: 8px 12px;
+    padding: 2px 4px;
+    margin: 8px 0;
     border: 1px solid white;
     border-radius: 4px;
     cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    position: absolute
-;}
+}
 
-.round {
+input[type=button]:hover {
+    background-color: white;
+    color: #33677D;
+    border: 1px solid #33677D;
+}
+
+/***image selection Top***/
+
+.firstimg1 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 750px;
+    border: 1px solid black;
+    padding: 5px, 10px;
+}
+
+.firstimg1 img {
+    width: 250px;
+    height: 250px;
+}
+
+.secondimg1 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 750px;
+    border: 1px solid ;
+    padding: 5px, 10px;
+}
+
+.secondimg1 img {
+    width: 250px;
+    height: 250px;
+}
+
+.firstround1 {
+    position: absolute;
     margin-top: 220px;
-    margin-left: 300px;
+    margin-left: 1080px
 }
 
-.square {
-    margin-top: 220px;
-    margin-left: 400px;
+.buttonbox1 {
+    width: 300px;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 1080px;
 }
 
-.round1 {
-    margin-top: 220px;
-    margin-left: 900px;
+#p10 {
+    position: absolute;
+    margin-left: -248px;
 }
 
-.square1 {
-    margin-top: 220px;
-    margin-left: 1000px;
+#p11 {
+    position: absolute;
+    margin-left: -164px;
 }
 
-.colorselcetor {
-  position: absolute;
+#p12 {
+    position: absolute;
+    margin-left: -80px;
 }
 
-.redbottom, .whitebottom, .blackbottom {
-  position: absolute;
-  float: left;
-  width: 20px;
-  height: 20px;
-  border: 1px solid rgba(0, 0, 0, .2);
+
+input[type=button] {
+    width: 100px;
+    height: 30px;
+    background-color: #33677D;
+    font-size: 14px;
+    color: white;
+    padding: 2px 4px;
+    margin: 8px 0;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.redbottom {
-  background: Red;
-  margin-top: 310px;
-  margin-left: 480px;
+input[type=button]:hover {
+    background-color: white;
+    color: #33677D;
+    border: 1px solid #33677D;
 }
 
-.whitebottom {
-  background: White;
-  margin-top: 310px;
-  margin-left: 550px;
-}
-
-.blackbottom {
-  background: Black;
-  margin-top: 310px;
-  margin-left: 620px;
-}
-
-.redtop, .whitetop, .blacktop {
-  position: absolute;
-  float: left;
-  width: 20px;
-  height: 20px;
-  border: 1px solid rgba(0, 0, 0, .2);
-}
-
-.redtop {
-  background: Red;
-  margin-top: 310px;
-  margin-left: 1080px;
-}
-
-.whitetop {
-  background: White;
-  margin-top: 310px;
-  margin-left: 1150px;
-}
-
-.blacktop {
-  background: Black;
-  margin-top: 310px;
-  margin-left: 1220px;
-}
-
+/***Quantity selection***/
 .quantityB p {
     position: absolute;
     color: white;
     padding: 5px 12px; 
-    width:140px;
+    width:180px;
     border-radius: 4px;
     border: 1px solid White;
-    margin-top: 360px;
+    margin-top: 380px;
     margin-left: 480px;
 }
-
-
 
 .quantityT p {
     position: absolute;
     color: white;
     padding: 5px 12px; 
-    width:140px;
+    width:180px;
     border-radius: 4px;
     border: 1px solid White;
     display: inline-block;
-    margin-top: 360px;
+    margin-top: 380px;
     margin-left: 900px;
 }
 
 input.Btmqnty {
-    width: 75px;
+    width: 120px;
     position: absolute;
-    margin-top: 363px;
+    margin-top: 383px;
     margin-left: 380px;
 }
 
 input.Topqnty {
-    width: 75px;
+    width: 120px;
     position: absolute;
-    margin-top: 363px;
+    margin-top: 383px;
     margin-left: 980px;
 }
 
@@ -260,8 +264,9 @@ input[type=number], select {
 }
 
 /***Enter delivery details btn***/
+
 .kart p {
-    color: white;
+    position: absolute;
     font-size: 20px;
     padding: 8px 12px;
     border: 1px solid white;
@@ -269,12 +274,15 @@ input[type=number], select {
     cursor: pointer;
     text-align: center;
     width: 200px;
-    margin-top: 250px;
-    margin-left: 530px;
+    margin-top: 430px;
+    margin-left: 1080px;
+    background: white;
+}
+
 }
 
 .kartbtn {
-    color: white;
+    color: darkblue;
     font-size: 20px;
     text-align: left;
     text-decoration: none;

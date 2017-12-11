@@ -6,6 +6,7 @@
 <link href="css/Delivery.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/translation.js"></script>
+<script type="text/javascript" src="js/kart.js"></script>
 <script>
     document.addEventListener("DOMContentLoaded", loadSavedCookieLanguageTranslation);
 </script>    
@@ -57,13 +58,66 @@
          
         <div class="cartname">
         <h1 class="tr" key="YC">Your Cart</h1>
-        
        
+            <!--Kart details-->
+            
+            <div class="shopping-cart">
+           
+              <!-- Product #1 -->
+                <div class="item">
+                  <div class="buttons">
+                  <span class="delete-btn"><img src="Images/delete.png"/></span>
+                </div>
+ 
+             <div class="image">
+                 <img src="Images/Bottom_Red.PNG" alt="" />
+             </div>
+ 
+             <div class="description">
+                 <span>Ring Holder</span>
+                 <span>Bottom</span>
+                 <span>Red</span>
+             </div>
+ 
+             <div class="quantity">
+               <input class="plus-btn" type="button" name="button" id="button" value="+"/>
+               <input type="text" name="name" value="1"/>
+               <input class="minus-btn" type="button" name="button" value="-"/>
+             </div>
+ 
+             <div class="total-price">€10</div>
+             </div>
+              
+                <!-- Product #2 -->
+                <div class="item1">
+                  <div class="buttons1">
+                  <span class="delete-btn1"><img src="Images/delete.png"/></span>
+                </div>
+ 
+             <div class="image1">
+                 <img src="Images/Top_White.PNG" alt="" />
+             </div>
+ 
+             <div class="description1">
+                 <span>Ring Holder</span>
+                 <span>Top</span>
+                 <span>White</span>
+             </div>
+ 
+             <div class="quantity1">
+               <input class="plus-btn" type="button" name="button" id="button" value="+"/>
+               <input type="text" name="name" value="1"/>
+               <input class="minus-btn" type="button" name="button" value="-"/>
+             </div>
+ 
+             <div class="total-price1">€6</div>
+             </div>
+            </div>
          
            <div class="ConfirmYourOrder">
               <li class="orderconfirmation"><a href=""  class="tr" key="CYO"> Confirm Your Order</a></li>
            </div>
-         </div>
+           </div>
          <!-- language menu -->
          <div class="bottom-row">
             <ul class="languageSelector">

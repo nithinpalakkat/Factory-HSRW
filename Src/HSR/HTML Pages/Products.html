@@ -50,6 +50,46 @@
              img.style.visibility="visible";
             }
         
+    
+        function pic7(){
+            document.getElementById("img2").src = "Images/Top_Red.PNG";
+            }
+        function pic8(){
+            document.getElementById("img2").src ="Images/Top_White.PNG";
+            }
+        function pic9(){
+            document.getElementById("img2").src ="Images/Top_Black.PNG";
+            } 
+        function pic10(){
+            document.getElementById("img3").src = "Images/Top_Red_1.PNG";
+            }
+        function pic11(){
+            document.getElementById("img3").src ="Images/Top_White_1.PNG";
+            }
+        function pic12(){
+            document.getElementById("img3").src ="Images/Top_Black_1.PNG";
+            } 
+    
+        function dShowS(){
+             p7.style.visibility="hidden";
+             p8.style.visibility="hidden";
+             p9.style.visibility="hidden";
+             p10.style.visibility="Visible";
+             p11.style.visibility="Visible";
+             p12.style.visibility="Visible";
+             img2.style.visibility="hidden";
+             img3.style.visibility="visible";
+            }
+        function dShow(){
+             p7.style.visibility="Visible";
+             p8.style.visibility="Visible";
+             p9.style.visibility="Visible";
+             p10.style.visibility="hidden";
+             p11.style.visibility="hidden";
+             p12.style.visibility="hidden";
+             img3.style.visibility="hidden";
+             img2.style.visibility="visible";
+            }
     </script>
 
 
@@ -101,13 +141,34 @@
        </div>
        
        <div class="buttonbox">
-    <input id="p1" type="button" style="width: 20px; height: 20px; background: Red;" value="" onclick="pic1()" /> 
-    <input id="p2" type="button" style="width: 20px; height: 20px; background: White;" value="" onclick="pic2()"/>
-    <input id="p3" type="button" style="width: 20px; height: 20px; background: Black;" value="" onclick="pic3()"/>
+    <input id="p1" type="button" style="width: 30px; height: 30px; margin-right: 50px; background: Red;" value="" onclick="pic1()" /> 
+    <input id="p2" type="button" style="width: 30px; height: 30px; margin-right: 50px; background: White;" value="" onclick="pic2()"/>
+    <input id="p3" type="button" style="width: 30px; height: 30px; margin-right: 50px; background: Black;" value="" onclick="pic3()"/>
     
-    <input id="p4" type="button" style="width: 20px; height: 20px; background: Red; visibility: hidden;" value="" onclick="pic4()" /> 
-    <input id="p5" type="button" style="width: 20px; height: 20px; background: White; visibility: hidden;" value="" onclick="pic5()"/>
-    <input id="p6" type="button" style="width: 20px; height: 20px; background: Black; visibility: hidden;" value="" onclick="pic6()"/>
+    <input id="p4" type="button" style="width: 30px; height: 30px; margin-right: 50px; background: Red; visibility: hidden;" value="" onclick="pic4()" /> 
+    <input id="p5" type="button" style="width: 30px; height: 30px; margin-right: 50px; background: White; visibility: hidden;" value="" onclick="pic5()"/>
+    <input id="p6" type="button" style="width: 30px; height: 30px; margin-right: 50px; background: Black; visibility: hidden;" value="" onclick="pic6()"/>
+        </div>
+        <!--top images-->
+         <div class="firstimg1">       
+           <img src = "Images/Top_Red.PNG" id = "img2"/>
+       </div>
+       <div class="secondimg1">
+           <img src = "Images/Top_Red_1.PNG" id = "img3" style="visibility: hidden;"/>
+       </div>
+            
+       <div class="firstround1">     
+           <input id="Btn" type="button" onclick="dShow()" value="Round" />
+           <input id="Btn1" type="button" onclick="dShowS()" value="Square" />
+       </div>
+        <div class="buttonbox1">
+    <input id="p7" type="button" style="width: 30px; height: 30px; margin-right: 50px; background: Red;" value="" onclick="pic7()" /> 
+    <input id="p8" type="button" style="width: 30px; height: 30px; margin-right: 50px; background: White;" value="" onclick="pic8()"/>
+    <input id="p9" type="button" style="width: 30px; height: 30px; margin-right: 50px; background: Black;" value="" onclick="pic9()"/>
+    
+    <input id="p10" type="button" style="width: 30px; height: 30px; margin-right: 50px; background: Red; visibility: hidden;" value="" onclick="pic10()" /> 
+    <input id="p11" type="button" style="width: 30px; height: 30px; margin-right: 50px; background: White; visibility: hidden;" value="" onclick="pic11()"/>
+    <input id="p12" type="button" style="width: 30px; height: 30px; margin-right: 50px; background: Black; visibility: hidden;" value="" onclick="pic12()"/>
         </div>
     <div class="namedesign"><h1 key="ND1" class="tr">Select Design:</h1><h2 key="ND2" class="tr">Select Design:</h2></div>    
     <div class="namecolour"><h1 key="NC1" class="tr">Select Colour:</h1><h2 key="NC2" class="tr">Select Colour:</h2></div>
@@ -122,6 +183,10 @@
             <label class="quantityT"><p key="QT1" class="tr">Quantity:</p></label>
         <input class="Topqnty" min="1" type="number" id="quantityT" name="quantityT" value="1" />
         </div>
+         
+        <div class="kart">
+                <a href="Delivery.html" class="kartbtn"><p key="BTN" class="tr">Proceed to Cart</p></a>
+             </div>
         
          <!-- language menu -->
          <div class="bottom-row">
