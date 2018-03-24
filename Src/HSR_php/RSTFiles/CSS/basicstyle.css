@@ -1,0 +1,120 @@
+@import "basestyle/css3";
+
+body {
+    position: inherit;
+}
+
+/*** Background image loading part ***/
+.backgroundimage {
+    background-image: url(../Images/background.png);
+    height: 100vh;
+    background-size: contain;
+    background-position: right;
+}
+
+/*** main menu starts ***/
+.main-nav {
+    text-align: right;
+    width: auto;
+    float: right;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.man-nav ul {
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    font-size: 17px;
+    text-align: left;
+}
+
+.main-nav li a:hover {
+    border: 1px solid white;
+}
+/*** main menu end ***/
+
+/*** top logo ***/
+.logo img {
+    margin-top: 40px;
+    margin-left: 120px;
+    width: 60px;
+    height: auto;
+    float: left;
+}
+
+.cartimg img {
+    position: absolute;
+    width: 40px;
+    margin-top: 45px;
+    margin-left: 1070px;
+}
+/*** bottom language menu starts ***/
+
+.bottom-row {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 510px;
+}
+
+.languageSelector {
+    float: center;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.languageSelector li {
+    display: inline-block;
+}
+
+.languageSelector li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    font-size: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.languageSelector li a:hover {
+    border: 1px solid #0C2B3F;
+    color: #0C2B3F;
+    background-color: white;
+    transition: all .5s ease-in;
+}
+/*** bottom language end ***/
+
+/*** bottom logo ***/
+.bottom-logo img {
+    width: 60px;
+    height: auto;
+    margin-top: -40px;
+}
+
+/*** copright text starts ***/
+footer {
+	position: absolute;
+    margin-top: 650px;
+    width: 100%;
+}
+
+p.copyright {
+	position: absolute;
+	width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+	text-align: center;
+	bottom:0;
+}
+
+/*** copright text end ***/

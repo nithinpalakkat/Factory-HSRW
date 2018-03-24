@@ -1,0 +1,52 @@
+@import "basicstyle.css";
+
+.productcontent {
+    position: absolute;
+    width: 600px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.productcontent h1 {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+}
+
+.productcontent p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    line-height: 60%
+}
+
+.button {
+    width: 300px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px, 20px;
+    color: #35677C;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.tr {
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #35677C;
+    color: white;
+    transition: all .5s ease-in;
+}
+
+.productSampleImage img {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 620px;
+}
+

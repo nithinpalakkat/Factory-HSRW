@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>HSRW i4.0</title>
+<link href="css/products.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+    function populate(slct,slct2) {
+        var slct1 = document.getElementById(slct1);
+        var slct2 = document.getElementById(slct2);
+        slct2.innerHTML = "";
+        if(slct1.value == "Round") {
+            var optionArray = ["|","red|Red","white|White","black|Black"];
+        } else if(slct1.value == "Square") {
+            var optionArray = ["|","red|Red","white|White","black|Black"]
+        }
+        for(var option in optionArray) {
+            var pair = optionArray[option].split("|");
+            var newOption = document.createElement("option");
+            newOption.value = pair[0];
+            newOption.innerHTML = pair[1];
+            slct2.options.add(newOption);
+        }
+    }
+</script>
+</head>
+
+<body>
+    <header class="backgroundimage">
+        
+     <!-- header part -->
+    <div class="row">
+        
+        <!-- header logo -->
+        <div class="logo">
+        <img src="Images/logo.png">
+        </div>
+        
+        <div class="main-nav">
+            <!-- navigation menu -->
+            <ul>
+                <li><a key="home" class="tr"  href="Home.html"> Home </a></li>
+                <li><a key="about" class="tr"  href="about.html"> About Us</a></li>
+                <li><a key="products" class="tr"  href="Products.html"> Products </a></li>
+                <li><a key="contacts" class="tr"  href="contacts.html"> Contacts </a></li>
+                <li><a key="signin" class="tr"  href="signin.html"> Sign In </a></li>
+            </ul>
+        </div>
+          
+      <div class="cartimg"><a href="Delivery.html"><img src="Images/cart.png"/></a></div>
+          
+        <div class="productheading">
+           <h1 key="PH1" class="tr">Select Your Bottom Part:</h1>
+           <h2 key="PH2" class="tr">Select Your Top Part:</h2>
+        
+        </div>    
+            
+        <hr class="vertical"/>
+        <div>
+            <select id="slct1" name="slct1" onChange = "populate(this.id,'slct2')">
+                <option value="selectdesign">Select Your Design</option>
+                <option value="round">Round</option>
+                <option value="square">Square</option>
+            </select>
+        </div>    
+            <select id="slct2" name="slct2"></select>
+        
+       <!-- <select id="slct3" name="slct3" onchange="populate(this.id,'slct4')">
+          <option class="round1" value="round">Round</option>
+          <option class="square1" value="square">Square</option>
+        </select>
+        <select id="slct4" name="slct4"></select>
+        
+        <!--products selection images bottom-->
+        <div class="productimages">
+            
+            <img class="roundbottom" id="roundbottom" src="Images/Bottom_Red.PNG" style="visibility: hidden">
+            <img class="roundbottom" id="squarebottom" src="Images/Bottom_Red_1.PNG" style="visibility: hidden">
+            <img class="roundbottom" id="roundbottom" src="Images/Bottom_White.PNG" style="visibility: hidden">
+            <img class="roundbottom" id="squarebottom" src="Images/Bottom_White_1.PNG" style="visibility: hidden">
+            <img class="roundbottom" id="roundbottom" src="Images/Bottom_Black.PNG" style="visibility: hidden">
+            <img class="roundbottom" id="squarebottom" src="Images/Bottom_Black_1.PNG" style="visibility: hidden">
+            <img class="roundtop" id="roundtop" src="Images/Top_Red.png" style="visibility: hidden">
+            <img class="roundtop" id="squaretop" src="Images/Top_Red_1.png" style="visibility: hidden">
+            <img class="roundtop" id="roundtop" src="Images/Top_White.png" style="visibility: hidden">
+            <img class="roundtop" id="squaretop" src="Images/Top_White_1.PNG" style="visibility: hidden">
+            <img class="roundtop" id="roundtop" src="Images/Top_Black.png" style="visibility: hidden">
+            <img class="roundtop" id="squaretop" src="Images/Top_Black_1.PNG" style="visibility: hidden">
+            
+            <div class="kart">
+                <a href="Delivery.html" class="kartbtn"><p key="BTN" class="tr">Proceed to Cart</p></a>
+            </div>
+        </div>
+       
+        <div class="namedesign"><h1 key="ND1" class="tr">Select Design:</h1><h2 key="ND2" class="tr">Select Design:</h2></div>
+        
+        <div class="designselect">
+           <a class="round" href="">Round</a>
+           <a class="square" href="">Square</a>
+           <a class="round1" href="">Round</a>
+           <a class="square1" href="">Square</a>
+        </div>
+        
+        <div class="namecolour"><h1 key="NC1" class="tr">Select Colour:</h1><h2 key="NC2" class="tr">Select Colour:</h2></div>
+        
+        <div class="colorselcetor">
+           <a class="redbottom" href=""></a>
+           <a class="whitebottom" href=""></a>
+           <a class="blackbottom" href=""></a>
+           <a class="redtop" href=""></a>
+           <a class="whitetop" href=""></a>
+           <a class="blacktop" href=""></a>
+        </div>
+        <div>
+        <label class="quantityB"><p key="QT1" class="tr">Quantity:</p></label>
+        <input class="Btmqnty" min="1" type="number" id="quantityB" name="quantityB" value="1" />
+        </div>
+            
+        <div>
+            <label class="quantityT"><p key="QT1" class="tr">Quantity:</p></label>
+        <input class="Topqnty" min="1" type="number" id="quantityT" name="quantityT" value="1" />
+        </div>
+        
+        <!--products selection images
+        <div class="selectionb">
+        <img class="Redb" id="Redb" src="Images/Redb.png">
+        <img class="Whiteb" id="Whiteb" src="Images/Whiteb.png">
+        <img class="Blackb" id="Blackb" src="Images/Blackb.png">
+        </div>
+        
+        <div class="selectiont">
+        <img class="SRedb" id="SRedb" src="Images/Squareredb.png">
+        <img class="SWhiteb" id="SWhiteb" src="Images/Squarewhiteb.png">
+        <img class="SBlackb" id="SBlackb" src="Images/Squareblackb.png">
+        </div>-->
+         <!-- language menu -->
+         <div class="bottom-row">
+            <ul class="languageSelector">
+                <li><a id="en" class="lang"> English </a></li>
+                <li><a id="de" class="lang"> German </a></li>
+            </ul>
+             
+             <!-- bottom logo -->
+             <div class="bottom-logo">
+                <img src="Images/logo.png">
+            </div>
+             
+        </div>
+        
+        <!-- copright text -->
+        <footer>
+            <p class="copyright">HSRW i4.0 developed 2017</p>
+        </footer>
+        
+        </div>
+                
+    </header>
+    </body>
+
+</html>

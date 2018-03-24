@@ -1,0 +1,365 @@
+@import "basicstyle.css";
+
+
+.deliverydetails {
+    position: absolute;
+    width: 600px;
+    height: auto;
+}
+
+.deliverydetails h1 {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.person {
+    
+    position: absolute;
+    left : 200px;
+    top  : 175px;
+    margin: 20px auto;
+    width: 500px;
+    color: white;
+}
+
+.person.label {
+    font-size: 14px;
+}
+
+input.YFName {
+    border-radius: 4px;
+}
+
+.deliverydetails p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 55px;
+}
+
+.deliverypoints {
+    position: absolute;
+    color: white;
+}
+
+.deliverypoints li{
+    line-height: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.deliverypointsBtna , .deliverypointsBtnb, .deliverypointsBtnc , .deliverypointsBtnd {
+    position: absolute;
+    width: 200px;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.deliverypointsBtna {
+    margin-left: 200px;
+    margin-top: 270px;
+}
+
+.deliverypointsBtnb {
+    margin-left: 200px;
+    margin-top: 320px;
+}
+
+.deliverypointsBtnc {
+    margin-left: 200px;
+    margin-top: 370px;
+}
+
+.deliverypointsBtnd {
+    margin-left: 200px;
+    margin-top: 420px;
+}
+
+.vertical{
+    position: absolute;
+   width: 1px;
+   height: 300px;
+   margin-left: 500px;
+   margin-top: 150px;
+} 
+
+
+.cartname h1 {
+    width: 300px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 600px;
+}
+
+.shopping-cart {
+  position: absolute;
+  width: 1000px;
+  height: 400px;
+  margin-top: 190px;
+  margin-left: 600px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #86939E;
+}
+
+.item {
+  display: flex;
+}
+ 
+.item:nth-child(3) {
+  border-top:  1px solid #E1E8EE;
+  border-bottom:  1px solid #E1E8EE;
+}
+
+.buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+
+.image {
+  margin-right: 50px;
+}
+ 
+Let’s add some basic style to  product name and description.
+.description {
+  padding-top: 10px;
+  margin-right: 80px;
+  width: 115px;
+}
+ 
+.description span {
+  display: block;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+}
+ 
+.description span:first-child {
+  margin-bottom: 5px;
+}
+.description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939E;
+}
+
+	
+.quantity {
+  padding-top: 10px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-left: 30px;
+}
+
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 30px;
+  font-size: 16px;
+  color: #43484D;
+  border-radius: 6px;
+}
+ 
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/***second image***/
+
+.image1 img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #86939E;
+}
+
+.item1 {
+  display: flex;
+}
+ 
+.item1:nth-child(3) {
+  border-top:  1px solid #E1E8EE;
+  border-bottom:  1px solid #E1E8EE;
+}
+
+.buttons {
+  position: relative;
+  padding-top: 25px;
+  margin-right: 60px;
+}
+.delete-btn {
+  display: inline-block;
+  Cursor: pointer;
+}
+.delete-btn img {
+  width: 16px;
+  height: 20px;
+}
+
+.buttons1 {
+  position: relative;
+  padding-top: 25px;
+  margin-right: 60px;
+}
+.delete-btn1 {
+  display: inline-block;
+  Cursor: pointer;
+}
+.delete-btn1 img {
+  width: 16px;
+  height: 20px;
+}
+ 
+.image1 {
+  margin-right: 50px;
+}
+ 
+Let’s add some basic style to  product name and description.
+.description1 {
+  padding-top: 10px;
+  margin-right: 100px;
+  width: 130px;
+}
+ 
+.description1 span {
+  display: block;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+}
+ 
+.description1 span:first-child {
+  margin-bottom: 5px;
+}
+.description1 span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939E;
+}
+
+	
+.quantity1 {
+  padding-top: 10px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-left: 30px;
+}
+
+.quantity1 input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 30px;
+  font-size: 16px;
+  color: #43484D;
+  border-radius: 6px;
+}
+ 
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.total-price {
+  width: 90px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+}
+
+.total-price1 {
+  width: 90px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+}
+
+@media (max-width: 800px) {
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+    
+  .item1, .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+    
+  .image img {
+    width: 50%;
+  }
+    
+.image1 img {
+    width: 50%;
+  }
+  .image, .image1,
+  .quantity, .quantity1,
+  .description, .description1 {
+    width: 100%;
+    text-align: center;
+    margin: 6px 0;
+  }
+    
+  .buttons, .buttons1 {
+    margin-right: 20px;
+  }
+}
+
+.ConfirmYourOrder {
+    position: absolute;
+    width: 300px;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: White;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 950px;
+    margin-top: 420px;
+}
+
+.orderconfirmation {
+    list-style-type: none;
+    text-decoration: none;
+    color: darkblue;
+    font-size: 22px;
+    text-align: center;
+}
+
+.ConfirmYourOrder li a {
+    text-decoration: none;
+}
+
